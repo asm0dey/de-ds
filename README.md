@@ -16,6 +16,18 @@ And after that build the project itself:
 pnpm install
 ```
 
+Building HTML:
+
+```
+pnpm run build
+```
+
+Building PDF:
+
+```
+pnpm run build-pdf
+```
+
 ## Development
 
 The presentations is built with [marp](https://marp.app/). The most comfortable way to work with Marp is to use a [VS Code's extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
