@@ -95,24 +95,57 @@ Of course, data scientists!
 
 ## Who works with data?
 
-Of course, data scientists! (no)
+Of course, data scientists! (not only)
 
 ![bg right:40%](https://source.unsplash.com/BQGxNnyuFtU)
 
 ---
 
-# Who works with Data
+# Reality is
 
-* ML Engineers
-* Data Analysts
-* Data Engineers
-* ML Researchers
-* Analyst
-* More is coming?
+Nobody should or even can do everything
 
----
+Responsibilities should be distributed
 
-![bg invert](images/ds_roles.png)
+Some responsibilities can be "outsourced" to SaaS's
 
 ---
 
+# Example?
+
+Setup: Large fashion e-com (_Sapando?_)
+
+Task: recommender system
+
+---
+
+# What business says:
+
+- Increase retention
+- Reduce cost of acquisition
+
+---
+
+<!-- _class: lead -->
+
+# What business means?
+
+Clients be like
+
+![](https://i.giphy.com/media/Qv5TjYPMeesh3ALM4N/giphy.webp)
+
+---
+
+# What business means?
+
+- Customers and even potential customers should return earlier
+- It should be easier to convert non-customers to customers
+
+---
+
+# Technical constraints
+
+![bg right:30%](https://i.giphy.com/media/3o7TKMlDDXVFNqC5EI/giphy.webp)
+
+- Lots of simple events (clicks, scrolls, interactions)
+- Backend is in Scala, but Data Science team works with Python
