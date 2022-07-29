@@ -1,15 +1,15 @@
 {
-  "name": "java-python",
+  "name": "de-ds",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "marp --html index.md",
+    "build": "marp --html index.md --bespoke.transition --bespoke.progress --url https://asm0dey.github.io/de-ds",
     "build-pdf": "marp --html --allow-local-files --pdf index.md",
     "build-pptx": "marp --html --allow-local-files --pptx index.md",
     "serve": "marp server --html --watch index.md"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^1.7.2"
+    "@marp-team/marp-cli": "^2.0.4"
   }
 }

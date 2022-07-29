@@ -149,3 +149,23 @@ Clients be like
 
 - Lots of simple events (clicks, scrolls, interactions)
 - Backend is in Scala, but Data Science team works with Python
+
+---
+
+# Approach
+
+1. Define business questions 
+1. Define required data
+1. Prepare data
+1. Research models
+1. Productionise model
+1. Monitor
+
+---
+
+# People involved
+
+draw diagram here:
+analysts+dss+des inside, other engineers, stakeholders outside
+
+![bg brightness:50%](https://media1.popsugar-assets.com/files/thumbor/vO-EEwz_AuhoPCNjPTWhK0oh4mk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/09/20/678/n/1922283/ecc04f8ddea7d9f1_MCDMIAN_FE004_H/i/re-just-so--sync.JPG)
