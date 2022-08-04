@@ -70,17 +70,6 @@ Pasha Finkelshteyn
 
 ---
 
-# What is Big Data?
-
-* Data that won't fit a single node
-* Data that scales on 3V
-    * Velocity
-    * Variety
-    * Volume
-* Data on which we can make reliable business decisions
-
----
-
 ## Who works with data?
 
 ---
@@ -169,3 +158,130 @@ draw diagram here:
 analysts+dss+des inside, other engineers, stakeholders outside
 
 ![bg brightness:50%](https://media1.popsugar-assets.com/files/thumbor/vO-EEwz_AuhoPCNjPTWhK0oh4mk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/09/20/678/n/1922283/ecc04f8ddea7d9f1_MCDMIAN_FE004_H/i/re-just-so--sync.JPG)
+
+
+---
+
+# Data components
+
+![bg](images/domain.jpg)
+
+---
+
+# Data components
+
+![bg](images/domain-science.jpg)
+
+---
+
+# Data components
+
+![bg](images/domain-science-engineering.jpg)
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> Data Engineers
+
+The big data folk
+
+---
+
+# Big data?
+
+* Data that won't fit a single node
+* Data that scales on 3V
+    * Velocity
+    * Variety
+    * Volume
+* Data on which we can make reliable business decisions
+
+
+---
+
+# Data engineer responsibilities
+
+Data:
+
+* Events
+
+---
+
+# Data engineer responsibilities
+
+Data preparation:
+
+* Collection and storage (managing costs)
+* Verification (data engineering, upstream customers)
+
+---
+
+# Data engineer responsibilities
+
+Technical solution:
+
+* Configuration
+* Technical solution and choice
+* Model serving - custom solutions, ready built solutions like ML 
+
+---
+
+# Data engineer responsibilities
+
+In production:
+
+* Monitoring (ops)
+* Provide access to suitable data to BI and DS
+
+---
+
+# Data scientist responsibilities
+
+<!-- Jodie, please split! -->
+
+* Find a suitable technical solution
+* Discuss constraints with business and engineering
+* Request suitable data from DE
+* Build MVP, assess success, test
+* Define DoD for “production ready” in collaboration with DE team
+* Extracting features from images and item metadata
+* Data science metrics monitoring
+
+---
+
+# Data scientist responsibilities
+
+Collaborate with data scientists to understand what business outcomes should be for the product
+Downstream customer of data engineers, request required data for reporting (might involve asking DE to make dedicated ETLs because data will be required for long term reporting)
+Create business metrics from raw clicks and scrolls - retention, acquisition and conversion behaviours
+Build dashboards for reporting impact of business metrics on 
+Connect business metrics with financial impact of project - relationship between retention, acquisition and conversion and financial performance
+Create adhoc requests about the project for e.g., marketing team
+
+---
+
+# Overlaps: Productionisation
+
+* What is the definition of done for the finished model?
+* Who is responsible for each bit?
+    * Responsible for algorithm: DS
+    * Responsible for upstream data: DE
+    * Responsible resourcing: ops
+* What “production ready” code means
+
+---
+
+# Overlaps: Diagnose/fix
+
+* Monitoring (from ops and DE) should pick up issue
+* It’s a team effort (DE and DS) to diagnose
+* Major changes should be an agreement between DE and DS
+
+---
+
+# Other roles
+
+---
+
+# TY!
