@@ -23,47 +23,14 @@ _class: lead
 _paginate: false
 _footer: ""
 -->
-# <!-- fit --> How do we know where to work?
-
----
-
-![bg fit](images/iki1.png)
-
----
-
-![bg fit](images/iki2.png)
-
----
-
-![bg fit](images/iki3.png)
-
----
-
-![bg fit](images/iki4.png)
-
----
-
-![bg fit](images/iki5.png)
-
----
-
-<!-- _class: lead -->
-
-# Ikigai
-
-> Ikigai (生き甲斐, lit. 'a reason for being') is a Japanese concept referring to something that gives a person a sense of purpose, a reason for living.
-
-<small>Wikipedia, the most reliable source of valid data</small>
-
----
 
 <!--
 _class: lead
 _paginate: false
 _footer: ""
 -->
-# DE, DS, and others
-## Find your Ikigai
+# Data Ninja Rockstar 
+# Is Not Enough
 
 Jodie Burchell
 Pasha Finkelshteyn
@@ -71,6 +38,8 @@ Pasha Finkelshteyn
 ---
 
 ## Who works with data?
+
+![bg right:40%](https://source.unsplash.com/BQGxNnyuFtU)
 
 ---
 
@@ -127,7 +96,7 @@ Clients be like
 
 # What business means?
 
-- Customers and even potential customers should return earlier
+- Customers and even potential customers should return sooner
 - It should be easier to convert non-customers to customers
 
 ---
@@ -150,15 +119,6 @@ Clients be like
 1. Productionise model
 1. Monitor
 
----
-
-# People involved
-
-draw diagram here:
-analysts+dss+des inside, other engineers, stakeholders outside
-
-![bg brightness:50%](https://media1.popsugar-assets.com/files/thumbor/vO-EEwz_AuhoPCNjPTWhK0oh4mk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/09/20/678/n/1922283/ecc04f8ddea7d9f1_MCDMIAN_FE004_H/i/re-just-so--sync.JPG)
-
 
 ---
 
@@ -172,12 +132,17 @@ analysts+dss+des inside, other engineers, stakeholders outside
 
 ![bg](images/domain-science.jpg)
 
+
 ---
 
 # Data components
 
 ![bg](images/domain-science-engineering.jpg)
 
+---
+
+<!-- _class: lead -->
+# The three specializations
 ---
 
 <!-- _class: lead -->
@@ -223,7 +188,6 @@ Technical solution:
 
 * Configuration
 * Technical solution and choice
-* Model serving - custom solutions, ready built solutions like ML 
 
 ---
 
@@ -250,7 +214,7 @@ In production:
 
 ---
 
-# Data scientist responsibilities
+# Data analyst responsibilities
 
 Collaborate with data scientists to understand what business outcomes should be for the product
 Downstream customer of data engineers, request required data for reporting (might involve asking DE to make dedicated ETLs because data will be required for long term reporting)
@@ -258,6 +222,12 @@ Create business metrics from raw clicks and scrolls - retention, acquisition and
 Build dashboards for reporting impact of business metrics on 
 Connect business metrics with financial impact of project - relationship between retention, acquisition and conversion and financial performance
 Create adhoc requests about the project for e.g., marketing team
+
+---
+
+# Data analyst responsibilities
+
+![bg fit 80%](https://cdnl.tblsft.com/sites/default/files/blog/2_45.png)
 
 ---
 
@@ -281,6 +251,17 @@ Create adhoc requests about the project for e.g., marketing team
 ---
 
 # Other roles
+
+---
+
+# Summary
+
+1. There are lots of responsibilities around data
+2. These responsibilities are broad
+4. You need to split your work between 3 dimensions
+5. Hire team accordingly
+
+![bg right](https://shirtoid.com/wp-content/uploads/2010/01/platypus.jpg)
 
 ---
 
