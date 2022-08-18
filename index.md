@@ -414,7 +414,7 @@ However, obviously a model doesn't exist in isolation. The data that is fed into
 # Overlaps: Diagnose/fix
 
 * Monitoring (from DS, DE and ops) should pick up issue
-* It’s a team effort (DE and DS) to diagnose
+* It’s a team effort to diagnose
 * Major changes should be an agreement between all affected teams
 
 <!--
