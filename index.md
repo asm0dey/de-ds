@@ -250,9 +250,9 @@ A data scientist's core skill is the ability to do research: that is, take vague
 
 # Data scientist responsibilities
 
-1. Translate business question
-2. Research available data and make shortlist
-3. Request sample from data engineering
+* Translate business question
+* Research available data and make shortlist
+* Request sample from data engineering
 
 <!--
 What responsibilities would our data scientists have on our recommender project? Well, at the beginning, they would be responsible for working with the business stakeholders to work out if their request makes sense (is a recommender the best solution for this problem?) and communicate the estimated complexity of building the model.
@@ -264,11 +264,11 @@ They would then start by digging through all available data and putting together
 
 # Data scientist responsibilities
 
-4. Modelling:
-a. Feature engineering
-b. Iteratively find suitable MVP
-5. Define DoD for “production ready” in collaboration with DE team
-6. Define model metrics, request monitoring
+
+* Feature engineering
+* Iteratively find suitable model MVP
+* Define DoD for “production ready” in collaboration with DE team
+* Define model metrics, request monitoring
 
 <!--
 Of course, the data scientist will then start exploring the data, creating suitable features and building the first recommender. The success of the recommender model needs to be assessed using model metrics, such as how much coverage of the product catalogue the recommender achieves, as well as close it comes to achieving the acquisition and retention goals set by the business. The solution the data scientist uses is also constrained by the fact our backend is in Scala. For example, the data scientist might come up with a solution that can be implemented in pure Scala, such as finding approximate nearest neighbours, or they might plan use a model serving platform such as MLflow so need to come up with a model that is compatible. At this stage, the data scientist might also adjust their estimates of how long it will take to produce a recommender of sufficient quality, based on how well this first model performs. 
@@ -351,9 +351,9 @@ The core responsibility of the data analyst is to understand what information bu
 
 # BI analyst responsibilities
 
-1. Understand feasibility of project
-2. Define metrics for measuring business success
-3. Request sample from data engineering
+* Understand feasibility of project
+* Define metrics for measuring business success
+* Request sample from data engineering
 
 <!--
 What responsibilities will our data analyst have on our recommender project? Well, they will work with business and data science to help understand if the retention and acquisition goals that we have are even feasible, based on past measures to improve these metrics. They'll also be able to find out the monetary impact of these improvements.
@@ -365,10 +365,9 @@ Once we've decided to go ahead with the recommender project and set our realisti
 
 # BI analyst responsibilities
 
-5. Request final pipelines from DE for reporting
-6. Reporting on business success:
-* Business metric dashboards
-* Adhoc analyses (e.g., for marketing)
+* Request final pipelines from DE for reporting
+* Creating dashboards for business metrics
+* Adhoc reporting
 
 <!--
 Once the recommender MVP is ready for production, the data analyst will work with data engineering to create pipelines for the data they need to monitor the recommender. In addition, they may define experiments in order to make their conclusions about the business impact of the new model more robust, such as only applying the recommender to part of the customer base in order to have a baseline to compare to. 
