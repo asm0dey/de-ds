@@ -137,7 +137,7 @@ Clients be like
 # Business outcomes
 
 - It should be easier to convert non-customers to customers
-- Customers and should return sooner
+- Customers should return sooner
 
 <!--
 Concretely, what we want this recommender system to be able to deliver is that it increases the rate of non-customers converting to customers, making this a cheaper way of acquiring new customers. In addition, we want to increase engagement and sales among existing and newly acquired customers.
@@ -218,7 +218,66 @@ Finally, at the intersection of all of these, we have our Data Ninja Rockstar, a
 ---
 
 <!-- _class: lead -->
-# The three specializations
+# <!-- fit --> The three specialisations
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> Data Scientists
+
+The research folk
+
+<!--
+The first pillar of the data team we're going to talk about are the data scientists, or the research folk.
+-->
+
+---
+
+# Data scientist skills
+
+* Ability to do research
+* Statistics
+* Machine/deep learning
+* Programming
+* Data wrangling and visualisation
+
+<!--
+A data scientist's core skill is the ability to do research: that is, take vague business questions or requirements and try to either find an answer or build a product to meet the need. In order to do so, they need to use statistics to get certainty about their answers, or know machine or deep learning techniques to build models. They also need to know how to do programming and data wrangling, but this is more in the service of doing research or POCs, not production-level code or ETLs. In addition, they need to be able to present their research using visualisations, but this is usually not at the level that data analysts would be doing for business consumers. 
+-->
+
+---
+
+# Data scientist responsibilities
+
+1. Translate business question
+2. Research available data and make shortlist
+3. Request sample from data engineering
+
+<!--
+What responsibilities would our data scientists have on our recommender project? Well, at the beginning, they would be responsible for working with the business stakeholders to work out if their request makes sense (is a recommender the best solution for this problem?) and communicate the estimated complexity of building the model.
+
+They would then start by digging through all available data and putting together a shortlist of what looks like it could be useful for both building and evaluating the model. After that, depending on how hard the data is to access, the data scientist will either pull a sample of this data themselves or ask data engineering to do so.
+-->
+
+---
+
+# Data scientist responsibilities
+
+4. Modelling:
+* Feature engineering
+* Iteratively find suitable MVP
+5. Define DoD for “production ready” in collaboration with DE team
+6. Define model metrics, request monitoring
+
+<!--
+Of course, the data scientist will then start exploring the data, creating suitable features and building the first recommender. The success of the recommender model needs to be assessed using model metrics, such as how much coverage of the product catalogue the recommender achieves, as well as close it comes to achieving the acquisition and retention goals set by the business. The solution the data scientist uses is also constrained by the fact our backend is in Scala. For example, the data scientist might come up with a solution that can be implemented in pure Scala, such as finding approximate nearest neighbours, or they might plan use a model serving platform such as MLflow so need to come up with a model that is compatible. At this stage, the data scientist might also adjust their estimates of how long it will take to produce a recommender of sufficient quality, based on how well this first model performs. 
+
+Finally, they will come up with a MVP recommender which meets both the business requirements and fits the technical constraints, and its time to hand over the model to the engineering team for deployment. 
+
+Finally, the data scientist will request reporting of those same model metrics from the data engineering team so they can assess how well the model is going in production.
+-->
+
 ---
 
 <!-- _class: lead -->
@@ -226,18 +285,6 @@ Finally, at the intersection of all of these, we have our Data Ninja Rockstar, a
 # <!-- fit --> Data Engineers
 
 The big data folk
-
----
-
-# Big data?
-
-* Data that won't fit a single node
-* Data that scales on 3V
-    * Velocity
-    * Variety
-    * Volume
-* Data on which we can make reliable business decisions
-
 
 ---
 
@@ -278,76 +325,17 @@ In production:
 
 <!-- _class: lead -->
 
-# <!-- fit --> Data Scientists
-
-The research folk
-
-<!--
-The next pillar of the data team we're going to talk about are the data scientists, or the research folk.
--->
-
----
-
-# Data scientist skills
-
-* Ability to do research
-* Mathematics
-    * Statistics
-    * Machine/deep learning
-* Programming
-* Data wrangling and visualisation
-
-<!--
-A data scientist's core skill is the ability to do research: that is, take vague business questions or requirements and try to either find an answer or build a product to meet the need. In order to do so, they need to use statistics to get certainty about their answers, or know machine or deep learning techniques to build models. They also need to know how to do programming and data wrangling, but this is more in the service of doing research or POCs, not production-level code or ETLs. In addition, they need to be able to present their research using visualisations, but this is usually not at the level that data analysts would be doing for business consumers. 
--->
-
----
-
-# Data scientist responsibilities
-
-1. Translate business question
-2. Research available data and make shortlist
-3. Request sample from data engineering
-
-<!--
-What responsibilities would our data scientists have on our recommender project? Well, at the beginning, they would be responsible for working with the business stakeholders to work out if their request makes sense (is a recommender the best solution for this problem?) and communicate the estimated complexity of building the model.
-
-They would then start by digging through all available data and putting together a shortlist of what looks like it could be useful for both building and evaluating the model. After that, depending on how hard the data is to access, the data scientist will either pull a sample of this data themselves or ask data engineering to do so.
--->
-
----
-
-# Data scientist responsibilities
-
-4. Modelling:
-    * Feature engineering
-    * Iteratively find suitable MVP
-5. Define DoD for “production ready” in collaboration with DE team
-6. Define model metrics, request monitoring
-
-<!--
-Of course, the data scientist will then start exploring the data, creating suitable features and building the first recommender. The success of the recommender model needs to be assessed using model metrics, such as how much coverage of the product catalogue the recommender achieves, as well as close it comes to achieving the acquisition and retention goals set by the business. The solution the data scientist uses is also constrained by the fact our backend is in Scala. For example, the data scientist might come up with a solution that can be implemented in pure Scala, such as finding approximate nearest neighbours, or they might plan use a model serving platform such as MLflow so need to come up with a model that is compatible. At this stage, the data scientist might also adjust their estimates of how long it will take to produce a recommender of sufficient quality, based on how well this first model performs. 
-
-Finally, they will come up with a MVP recommender which meets both the business requirements and fits the technical constraints, and its time to hand over the model to the engineering team for deployment. 
-
-Finally, the data scientist will request reporting of those same model metrics from the data engineering team so they can assess how well the model is going in production.
--->
-
----
-
-<!-- _class: lead -->
-
-# <!-- fit --> Data Analysts
+# <!-- fit --> BI Analysts
 
 The data communication folk
 
 <!--
-The final pillar of the data team we're going to discuss is, of course, data analysts, the data communication folk.
+The final pillar of the data team we're going to discuss is, of course, business intelligence analysts, the data communication folk.
 -->
 
 ---
 
-# Data analyst skills
+# BI analyst skills
 
 * Deep understanding of business
 * Knowledge of what data answers business questions
@@ -361,7 +349,7 @@ The core responsibility of the data analyst is to understand what information bu
 
 ---
 
-# Data analyst responsibilities
+# BI analyst responsibilities
 
 1. Understand feasibility of project
 2. Define metrics for measuring business success
@@ -375,12 +363,12 @@ Once we've decided to go ahead with the recommender project and set our realisti
 
 ---
 
-# Data analyst responsibilities
+# BI analyst responsibilities
 
 5. Request final pipelines from DE for reporting
 6. Reporting on business success:
-    * Business metric dashboards
-    * Adhoc analyses (e.g., for marketing)
+* Business metric dashboards
+* Adhoc analyses (e.g., for marketing)
 
 <!--
 Once the recommender MVP is ready for production, the data analyst will work with data engineering to create pipelines for the data they need to monitor the recommender. In addition, they may define experiments in order to make their conclusions about the business impact of the new model more robust, such as only applying the recommender to part of the customer base in order to have a baseline to compare to. 
@@ -393,11 +381,7 @@ Following this, they will build dashboards using tools such as PowerBI or Tablea
 # Overlaps: Productionisation
 
 * What is the definition of done for the finished model?
-* What “production ready” code means
-* Who is responsible for each bit?
-    * Responsible for algorithm: DS
-    * Responsible for upstream data: DE
-    * Responsible resourcing: ops
+* Who is responsible when things go wrong?
 
 <!--
 Now, you might have realised there are a few areas where the separation between the roles is not so clear cut. We're going to go over a couple of them here, the first of which is "Who is responsible for what when the model goes into production?"
@@ -407,25 +391,11 @@ Now, I've worked on teams where the approach was everything from throw a Jupyter
 There should be a prearranged definition of done by the data science team for the model and its associated code and artefacts, and an understanding what will be changed by the data engineering team. My general feeling is that whoever needs to be responsible for debugging this model in production should be the one who writes the code for it. So if your model is going to be served from MLflow, for instance, it might be better if your data scientists wrote the code for the model, but if the code is able to be written in Scala, then obviously your data engineering team needs to translate the code from Python at that point with the help of the data science team.
 
 However, obviously a model doesn't exist in isolation. The data that is fed into a model in production is going to be the responsibility of the data engineering team, who will create efficient ETLs to produce this data in the most cost-effective way. Models also need resourcing, and the ops team will be responsible for this, for example, making sure that sufficient pods with enough memory in the right data centres are available to allow the model to run efficiently.
--->
 
----
-
-# Overlaps: Diagnose/fix
-
-* Monitoring (from DS, DE and ops) should pick up issue
-* It’s a team effort to diagnose
-* Major changes should be an agreement between all affected teams
-
-<!--
 Another area where there will be overlap is when things go wrong. One of the reasons we've emphasised having a division of monitoring is so that the right team with the right expertise can spot problems in a timely manner. For example, the data science monitoring might show a massive drop in model performance, or the data engineering monitoring might show a huge drop off in events used for the model. Once the problem is found, it's likely going to be an exploratory process to diagnose it, which will involve multiple people from multiple teams, from data analysis through to the ops team.
 
 In the best case scenario, the problem has a quick solution. However, in the worst case, the model needs major changes. [Tell BMW story here?] These changes should be treated with the same scrutiny as the decision to do the initial project was, as they may end up being a large commitment to implement.
 -->
-
----
-
-# Other roles
 
 ---
 
@@ -440,4 +410,12 @@ In the best case scenario, the problem has a quick solution. However, in the wor
 
 ---
 
-# TY!
+<!-- _class: lead -->
+
+# <!-- fit --> Thank you!
+
+Twitter: @asm0di0
+
+
+Blog: t-redactyl.io 
+Twitter: @t-redactyl
