@@ -265,8 +265,8 @@ They would then start by digging through all available data and putting together
 # Data scientist responsibilities
 
 4. Modelling:
-* Feature engineering
-* Iteratively find suitable MVP
+a. Feature engineering
+b. Iteratively find suitable MVP
 5. Define DoD for “production ready” in collaboration with DE team
 6. Define model metrics, request monitoring
 
