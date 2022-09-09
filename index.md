@@ -29,20 +29,18 @@ _class: lead
 _paginate: false
 _footer: ""
 -->
-# A Data Ninja Rockstar 
-# Is Not Enough
+# Avoid Hiring Data Ninja Rockstars
+## How to build effective data teams
 
-Jodie Burchell
+Dr. Jodie Burchell
 Pasha Finkelshteyn
 
 <!--
-Hi everyone, we're happy to be presenting today at Big Data London!
+Hi everyone, I'm happy to be presenting today at Big Data London!
 
-Pasha introduction:
-Jodie introduction:
-I'm Dr. Jodie Burchell. I completed a PhD in psychology and a postdoc in biostatistics before moving into a career in data science.
+I'm Jodie Burchell, the data science developer advocate at JetBrains. I completed a PhD in psychology and a postdoc in biostatistics before moving into my current career in data science.
 
-Between the two of us, we have over a decade's experience working in data teams, and we'd like to use this talk to clear up some misconceptions we've seen about what it takes to make a successful data team, including the different responsibilities and skills that need to be covered, and who is best able to check these off.
+I prepared this talk with my colleague, Pasha Finkelshteyn, who is the Big Data developer advocate at JetBrains. Unfortunately he could not be here today, but this presentation is based on our collective decade plus of experience of working in data teams. I'd like to use this talk to clear up some misconceptions we've seen about what it takes to make a successful data team, including the different responsibilities and skills that need to be covered, and who is best able to check these off.
 -->
 
 ---
@@ -76,12 +74,12 @@ Of course, data scientists! (not only)
 ![bg right:40%](https://source.unsplash.com/BQGxNnyuFtU)
 
 <!--
-Unfortuntately for these companies (and the ego of us data scientists), the picture is not that simple. Data scientists are not the only members of most data teams, and in many cases, may not be the core member, depending on what your company wants to do.
+Unfortuntately for these companies (and the ego of data scientists like myself), the picture is not that simple. Data scientists are not the only members of most data teams, and in many cases, may not be the core member, depending on what your company wants to do.
 -->
 
 ---
 
-# Reality is
+# The reality is ...
 
 Nobody should or even can do everything
 
@@ -109,7 +107,7 @@ To ground this talk a little, we're going to be using an example of a fairly typ
 
 ---
 
-# What business says:
+# What the business says
 
 - Increase retention
 - Reduce cost of acquisition
@@ -122,7 +120,7 @@ The reason we want this recommender system is to retain customers that we alread
 
 <!-- _class: lead -->
 
-# What business means?
+# What does the business mean?
 
 Clients be like
 
@@ -185,7 +183,7 @@ Finally, we need to build monitoring, which includes technical monitoring about 
 
 ---
 
-# Data components
+# Data skills
 
 ![bg](images/domain.jpg)
 
@@ -195,30 +193,30 @@ Now this is a big list of work, and I think you can see it requires many differe
 
 ---
 
-# Data components
+# Data skills
 
 ![bg](images/domain-science.jpg)
 
 <!--
-The second area is science. This is using research skills in conjunction with data to answer open ended business questions or create useful data products. While data scientists tend spend most of their time in this domain, data analysts also need to do some research as part of their role.
+The second area is science. This is using research skills in conjunction with data to answer open ended business questions or create useful data products. While data scientists tend spend most of their time in this domain, data analysts also need to do some research as part of their role. A common data analyst title in companies is a business intelligence analyst.
 -->
 
 ---
 
-# Data components
+# Data skills
 
 ![bg](images/domain-science-engineering.jpg)
 
 <!--
 The final area is engineering. Data engineering is concerned with the organisation, processing and storage of data, including making sure that the provinance of that data is understood and data is accessible by others that might need to use it. They may also be responsible for the deployment and maintenance of machine learning models. Data engineers with a deep domain knowledge are analytics engineers, who translate business needs into data models. People who have a command of data science and data engineering work are ML engineers, who are usually able to work on data science models and also understand how to get them into production.
 
-Finally, at the intersection of all of these, we have our Data Ninja Rockstar, a person who we're asking to have a deep understanding of all of the business needs and current operations, excellent research skills and be a proficient engineer. Having spelled out all of the skills and responsibilities we might expect our Ninja Rockstar to have, you can see why they are true unicorns when it comes to hiring, especially for larger companies with more complex needs. In addition, you can also see that the amount of work needed to be completed by just one person is not really sustainable. As such, as you can probably guess from the title of the talk, we're going to caution against trying to hire this all-in-one person to do everything on your data team and instead describe the three specialisations that typically divide up this work.
+Finally, at the intersection of all of these, we have our Data Ninja Rockstar, a person who we're asking to have a deep understanding of all of the business needs and current operations, excellent research skills and be a proficient engineer. Having spelled out all of the skills and responsibilities we might expect our Ninja Rockstar to have, you can see why they are true unicorns when it comes to hiring, especially for larger companies with more complex needs. In addition, you can also see that the amount of work needed to be completed by just one person is not really sustainable. As such, as you can probably guess from the title of the talk, we're going to caution against trying to hire this all-in-one person to do everything on your data team and instead describe the three roles that typically divide up this work.
 -->
 
 ---
 
 <!-- _class: lead -->
-# <!-- fit --> The three specialisations
+# <!-- fit --> The three roles
 
 ---
 
@@ -344,7 +342,7 @@ The final pillar of the data team we're going to discuss is, of course, business
 * Data exploration and analysis
 
 <!--
-The core responsibility of the data analyst is to understand what information business people need to know about how the company is functioning and extract this from the data. They are therefore, as we've already said, deep experts in both the business domain and the available data. Much of their work concerns data communication, either through creating dashboards to monitor core business metrics, or adhoc reports to answer business questions, which requires very high level data visualisation skills. They are typically good at data cleaning, usually through tools like Excel or SQL, and are skilled at exploring and analysing this data.
+The core responsibility of the BI analyst is to understand what information business people need to know about how the company is functioning and extract this from the data. They are therefore, as we've already said, deep experts in both the business domain and the available data. Much of their work concerns data communication, either through creating dashboards to monitor core business metrics, or adhoc reports to answer business questions, which requires very high level data visualisation skills. They are typically good at data cleaning, usually through tools like Excel or SQL, and are skilled at exploring and analysing this data.
 -->
 
 ---
@@ -356,9 +354,9 @@ The core responsibility of the data analyst is to understand what information bu
 * Request sample from data engineering
 
 <!--
-What responsibilities will our data analyst have on our recommender project? Well, they will work with business and data science to help understand if the retention and acquisition goals that we have are even feasible, based on past measures to improve these metrics. They'll also be able to find out the monetary impact of these improvements.
+What responsibilities will our BI analyst have on our recommender project? Well, they will work with business and data science to help understand if the retention and acquisition goals that we have are even feasible, based on past measures to improve these metrics. They'll also be able to find out the monetary impact of these improvements.
 
-Once we've decided to go ahead with the recommender project and set our realistic business goals, the data analyst will need to define the metrics for to measure business success, and how to derive these from the raw data (if they don't already exist). Again, depending on how hard it is to access the data, they may pull a sample themselves or request one from the data engineering team.
+Once we've decided to go ahead with the recommender project and set our realistic business goals, the BI analyst will need to define the metrics for to measure business success, and how to derive these from the raw data (if they don't already exist). Again, depending on how hard it is to access the data, they may pull a sample themselves or request one from the data engineering team.
 -->
 
 ---
@@ -370,7 +368,7 @@ Once we've decided to go ahead with the recommender project and set our realisti
 * Adhoc reporting
 
 <!--
-Once the recommender MVP is ready for production, the data analyst will work with data engineering to create pipelines for the data they need to monitor the recommender. In addition, they may define experiments in order to make their conclusions about the business impact of the new model more robust, such as only applying the recommender to part of the customer base in order to have a baseline to compare to. 
+Once the recommender MVP is ready for production, the BI analyst will work with data engineering to create pipelines for the data they need to monitor the recommender. In addition, they may define experiments in order to make their conclusions about the business impact of the new model more robust, such as only applying the recommender to part of the customer base in order to have a baseline to compare to. 
 
 Following this, they will build dashboards using tools such as PowerBI or Tableau which keep track of how much the recommender is affecting acquisition, retention, and the subsequent impact on revenue. The analyst will be primarily responsible for monitoring these metrics and communicating with both business and data science if the model doesn't seem to be performing as expected. In addition, they may need to create adhoc analyses about the performance of the recommender, such as pulling the numbers for piece for marketing to show off the cool technology that Trasos is using.
 -->
@@ -393,7 +391,7 @@ However, obviously a model doesn't exist in isolation. The data that is fed into
 
 Another area where there will be overlap is when things go wrong. One of the reasons we've emphasised having a division of monitoring is so that the right team with the right expertise can spot problems in a timely manner. For example, the data science monitoring might show a massive drop in model performance, or the data engineering monitoring might show a huge drop off in events used for the model. Once the problem is found, it's likely going to be an exploratory process to diagnose it, which will involve multiple people from multiple teams, from data analysis through to the ops team.
 
-In the best case scenario, the problem has a quick solution. However, in the worst case, the model needs major changes. [Tell BMW story here?] These changes should be treated with the same scrutiny as the decision to do the initial project was, as they may end up being a large commitment to implement.
+In the best case scenario, the problem has a quick solution. However, in the worst case, the model needs major changes. These changes should be treated with the same scrutiny as the decision to do the initial project was, as they may end up being a large commitment to implement.
 -->
 
 ---
